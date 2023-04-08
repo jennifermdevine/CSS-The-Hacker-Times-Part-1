@@ -13,7 +13,7 @@ header {
 }
 
 nav li {
-    text-align: center;
+    
     list-style: none;
     font-family: Source Sans Pro;
     color: #777;
@@ -26,6 +26,7 @@ nav {
     border-style: solid none solid none;
     border-color: #777;
     border-width: 1px 0px 1px 0px;
+    text-align: center;
 }
 
 a {
@@ -43,7 +44,21 @@ h2 {
 }
 
 h5 {
-    color: red;
+    color: #dd3232;
     font-family: Abril Fatface;
+    padding: 1px 1px 1px 1px
+}
 
+main {
+    width: 100%; 
+    color: 
+}
+
+.frontpage {
+    width: 100%;
+}
+
+h4 {
+    display: inline;
+    width: 50%;
 }
