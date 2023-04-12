@@ -12,6 +12,14 @@ header {
     font-size: .75em;
 }
 
+body {
+    font-family: Source Sans Pro;
+    background: #eee;
+    font-size: 1.25em;
+    padding: 2em;
+    
+}
+
 nav li {
     
     list-style: none;
@@ -38,7 +46,7 @@ a:hover {
     color: lightgray;
 }
 
-h2 {
+h2, h4 {
     font-family: Roboto Slab;
     padding: 1px 1px 1px 1px
 }
@@ -46,7 +54,7 @@ h2 {
 h5 {
     color: #dd3232;
     font-family: Abril Fatface;
-    padding: 1px 1px 1px 1px
+    
 }
 
 main {
@@ -58,7 +66,27 @@ main {
     width: 100%;
 }
 
-h4 {
-    display: inline;
-    width: 50%;
+.more-articles {
+    border-style: solid none none none;
+    border-width: 1px 0 0 0;
+    border-color: #777;
+    text-align: justify;
+    
+}
+
+
+.more-articles section {
+    display: inline-block;
+    width: 45%;
+    padding: 2em;
+}
+
+.more-articles img {
+    width: 95%
+}
+
+.more-articles p {
+    text-align: justify;
+    padding: 1em 2em 0 0;
+    margin: 
 }
