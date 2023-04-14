@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+* {
+    box-sizing: border-box;
+
+}
 
 header {
     font-family: Abril Fatface;
@@ -20,8 +24,16 @@ body {
     
 }
 
+.newspaper-container {
+    background-color: white;
+    box-shadow: #ddd;
+    width: 70vw;
+    border-radius: 4%;
+    margin:auto;
+    padding: 3em;
+}
+
 nav li {
-    
     list-style: none;
     font-family: Source Sans Pro;
     color: #777;
@@ -31,6 +43,9 @@ nav li {
 }
 
 nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
     border-style: solid none solid none;
     border-color: #777;
     border-width: 1px 0px 1px 0px;
@@ -59,7 +74,6 @@ h5 {
 
 main {
     width: 100%; 
-    color: 
 }
 
 .frontpage {
@@ -82,11 +96,10 @@ main {
 }
 
 .more-articles img {
-    width: 95%
+    width: 95%;
 }
 
 .more-articles p {
     text-align: justify;
     padding: 1em 2em 0 0;
-    margin: 
 }
